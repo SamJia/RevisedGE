@@ -9,7 +9,7 @@
 
 ## Data format
 
-RevisedGE can accept the data in skipgram format (e.g. data/circle.txt): first line is header (containing number of nodes and number of dimension), all other lines are node-id and d dimensional representation.
+RevisedGE can accept the data in skipgram format (e.g. data/Center.txt): first line is header (containing number of nodes and number of dimension), all other lines are node-id and d dimensional representation.
 
     2000    2
     0   -3.002371   -0.076243
@@ -40,4 +40,4 @@ The usage of RevisedGE is as follow:
 
 For example:
 
-    python RevisedGE.py data/circle.npy results/circle_ach.txt
+    python RevisedGE.py data/Center.npy results/Center_ach.txt
